@@ -1,18 +1,26 @@
 // Common Question 1 - PPE Type Selection
+
+export type Option = {
+  value: string;
+  label: string;
+  icon?: string;
+  col?: number;
+};
 const question1 = {
   id: 1,
   question: "What type of PPE are you primarily looking for today?",
   type: "single" as const,
   required: true,
+  col:2,
   options: [
-    { value: "helmets", label: "Safety helmets" },
-    { value: "glasses", label: "Safety glasses" },
-    { value: "hearing", label: "Hearing protection" },
-    { value: "respirators", label: "Respirators" },
-    { value: "gloves", label: "Safety gloves" },
-    { value: "footwear", label: "Safety footwear" },
-    { value: "clothing", label: "Clothing" }
-  ]
+    { value: "helmets", label: "Safety helmets", icon: "/icons/helmets.png" },
+    { value: "glasses", label: "Safety glasses", icon: "/icons/glasses.png" },
+    { value: "hearing", label: "Hearing protection", icon: "/icons/hearing.png" },
+    { value: "respirators", label: "Respirators", icon: "/icons/respirators.png" },
+    { value: "gloves", label: "Safety gloves", icon: "/icons/gloves.png" },
+    { value: "footwear", label: "Safety footwear", icon: "/icons/footwears.png" },
+    { value: "clothing", label: "Clothing", icon: "/icons/clothing.png" }
+  ] as Option[],
 };
 
 // Questions for Safety Helmets

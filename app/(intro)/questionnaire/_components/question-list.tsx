@@ -6,8 +6,9 @@ import {
   getMatchingProducts,
   type QuestionnaireAnswers,
 } from "@/data/product-answers";
-import { getQuestionsByPPEType } from "@/data/questions";
+import { getQuestionsByPPEType, Option } from "@/data/questions";
 import { ChevronRight } from "lucide-react";
+import Image from "next/image";
 import { useMemo, useState } from "react";
 import { ResultsList } from "./results-list";
 
@@ -104,7 +105,7 @@ export const QuestionList = () => {
         indicatorColor="#C7D562"
       />
 
-      <div className=" backdrop-blur-sm rounded-2xl p-8 space-y-6">
+      <div className=" backdrop-blur-sm rounded-2xl p-2 md:p-8 space-y-6">
         <div className="space-y-2">
           <h2 className="text-2xl font-medium text-white">
             {currentQuestion.question}
@@ -116,8 +117,14 @@ export const QuestionList = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-          {currentQuestion.options.map((option) => (
+        <div
+          className={`grid ${
+            "col" in currentQuestion && currentQuestion.col === 2
+              ? "grid-cols-2"
+              : "grid-cols-1"
+          } gap-3 md:grid-cols-2`}
+        >
+          {(currentQuestion.options as Option[]).map((option) => (
             <button
               key={option.value}
               onClick={() =>
@@ -137,7 +144,7 @@ export const QuestionList = () => {
             >
               <span
                 className={`
-                text-sm font-medium transition-colors
+                text-sm font-medium transition-colors md:flex items-center gap-2
                 ${
                   isSelected(option.value)
                     ? "text-white"
@@ -145,6 +152,16 @@ export const QuestionList = () => {
                 }
               `}
               >
+                {option.icon && (
+                  <span className="bg-white rounded-full mb-2 md:mb-0 p-1 h-[28px] w-[28px] flex items-center justify-center overflow-hidden">
+                    <Image
+                      src={option.icon}
+                      alt={option.label}
+                      width={24}
+                      height={24}
+                    />
+                  </span>
+                )}
                 {option.label}
               </span>
             </button>
@@ -155,7 +172,7 @@ export const QuestionList = () => {
           <Button
             onClick={handleContinue}
             disabled={!isAnswered()}
-            className="disabled:opacity-40"
+            className="disabled:opacity-40 md:w-fit w-full"
           >
             Continue
             <ChevronRight />

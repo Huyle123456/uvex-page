@@ -33,10 +33,10 @@ body {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #444;
+  background: black;
 position: relative;
   /* Center slide text vertically */
-  display: flex;
+  display: flex!important; ;
   justify-content: center;
   align-items: center;
 }

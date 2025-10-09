@@ -86,7 +86,7 @@ export default function DetailProductPage({ params }: ProductDetailPageProps) {
                   product.images.map((image, index) => (
                     <SwiperSlide
                       key={index}
-                      className="rounded-2xl overflow-hidden   items-center justify-center bg-white"
+                      className="rounded-2xl overflow-hidden   items-center justify-center "
                       style={{ display: "flex !important" }}
                     >
                       <Image
@@ -94,7 +94,7 @@ export default function DetailProductPage({ params }: ProductDetailPageProps) {
                         alt={product.productName}
                         height={400}
                         width={400}
-                        className="object-contain w-full  "
+                        className="object-contain w-full  rounded-2xl"
                       />
                     </SwiperSlide>
                   ))
@@ -105,6 +105,17 @@ export default function DetailProductPage({ params }: ProductDetailPageProps) {
                     </div>
                   </SwiperSlide>
                 )}
+                {product.video ? (
+                  <SwiperSlide className="rounded-2xl overflow-hidden   items-center justify-center ">
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <video
+                        src={product.video}
+                        controls
+                        className="rounded-2xl"
+                      />
+                    </div>
+                  </SwiperSlide>
+                ) : null}
               </Swiper>
             </div>
 

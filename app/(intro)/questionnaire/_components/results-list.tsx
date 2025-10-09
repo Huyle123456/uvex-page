@@ -2,8 +2,8 @@
 
 import { Button } from "@/components/button";
 import type { Product } from "@/data/product-answers";
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
 
 interface ResultsListProps {
   products: Product[];
@@ -13,7 +13,7 @@ interface ResultsListProps {
 export const ResultsList = ({ products, onRestart }: ResultsListProps) => {
   return (
     <div className="w-full max-w-3xl mx-auto space-y-6">
-      <div className=" backdrop-blur-sm rounded-2xl p-6 space-y-4">
+      <div className=" backdrop-blur-sm rounded-2xl p-2 md:p-6 space-y-4">
         {products.length > 0 ? (
           products.map((product) => (
             <Link
@@ -22,21 +22,21 @@ export const ResultsList = ({ products, onRestart }: ResultsListProps) => {
               key={product.articleNo}
               className="flex items-center gap-4   rounded-xl hover:bg-neutral-800 transition-colors"
             >
-              <div className="h-[80px] w-[80px] bg-white rounded-lg overflow-hidden flex items-center justify-center">
+              <div className="bg-white rounded-[12px] overflow-hidden flex items-center justify-center">
                 <Image
-                  className="object-contain"
+                  className="object-contain w-[84px] h-[84px] md:w-[120px] md:h-[120px]"
                   src={product.image ?? "/images/placeholder.png"}
                   alt={product.productName}
-                  width={80}
-                  height={80}
+                  width={120}
+                  height={120}
                 ></Image>
               </div>
 
               <div className="flex-1">
-                <p className="text-xs text-neutral-400 mb-1">
+                <p className="text-[14px] text-neutral-400 mb-1">
                   Article number: {product.articleNo}
                 </p>
-                <p className="text-[14px] md:text-lg font-medium text-white capitalize">
+                <p className="text-[20px] md:text-[24px] font-medium text-white capitalize">
                   {product.productName}
                 </p>
               </div>
@@ -66,7 +66,7 @@ export const ResultsList = ({ products, onRestart }: ResultsListProps) => {
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-4 border-t border-neutral-800">
-          <p className=" font-medium">Find other solutions?</p>
+          <div className="text-[16px] text-left md:w-fit w-full ">Find other solutions?</div>
           <Button onClick={onRestart} className=" w-full sm:w-auto">
             Restart the questionnaire
           </Button>

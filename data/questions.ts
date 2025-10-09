@@ -14,11 +14,13 @@ const question1 = {
   col:2,
   options: [
     { value: "helmets", label: "Safety helmets", icon: "/icons/helmets.png" },
-    { value: "glasses", label: "Safety glasses", icon: "/icons/glasses.png" },
     { value: "hearing", label: "Hearing protection", icon: "/icons/hearing.png" },
-    { value: "respirators", label: "Respirators", icon: "/icons/respirators.png" },
     { value: "gloves", label: "Safety gloves", icon: "/icons/gloves.png" },
-    { value: "footwear", label: "Safety footwear", icon: "/icons/footwears.png" },
+ { value: "footwear", label: "Safety footwear", icon: "/icons/footwears.png" },
+    { value: "glasses", label: "Safety glasses", icon: "/icons/glasses.png" },
+
+    { value: "respirators", label: "Respirators", icon: "/icons/respirators.png" },
+
     { value: "clothing", label: "Clothing", icon: "/icons/clothing.png" }
   ] as Option[],
 };

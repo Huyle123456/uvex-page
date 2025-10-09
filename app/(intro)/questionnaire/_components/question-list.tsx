@@ -7,7 +7,7 @@ import {
   type QuestionnaireAnswers,
 } from "@/data/product-answers";
 import { getQuestionsByPPEType, Option } from "@/data/questions";
-import { ChevronRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import { useMemo, useState } from "react";
 import { ResultsList } from "./results-list";
@@ -133,8 +133,8 @@ export const QuestionList = () => {
                   : handleMultipleChoice(option.value)
               }
               className={`
-                group relative flex items-center gap-3 px-4 py-3.5 rounded-lg
-                border-2 transition-all duration-200 text-left
+                group relative flex items-center gap-3 px-4 py-3.5 rounded-[12px]
+                border-1 transition-all duration-200 text-left
                 ${
                   isSelected(option.value)
                     ? "border-[#C7D562] bg-[#C7D562]/10"
@@ -144,7 +144,7 @@ export const QuestionList = () => {
             >
               <span
                 className={`
-                text-sm font-medium transition-colors md:flex items-center gap-2
+                text-sm font-medium transition-colors md:flex items-center gap-2 capitalize
                 ${
                   isSelected(option.value)
                     ? "text-white"
@@ -172,10 +172,10 @@ export const QuestionList = () => {
           <Button
             onClick={handleContinue}
             disabled={!isAnswered()}
-            className="disabled:opacity-40 md:w-fit w-full"
+            className="disabled:bg-[#333333]  disabled:text-[#707070]  md:w-fit w-full"
           >
             Continue
-            <ChevronRight />
+            <ArrowRight />
           </Button>
         </div>
       </div>

@@ -32,7 +32,8 @@ Application areas
  • Electrical
  • Gardening and landscaping
  • Forestry`,
-    image: "/product-images/helmets/pronamic-alpine-white/1.png"
+    images: ["/product-images/helmets/pronamic-alpine-white/1.png"],
+    video:"/product-videos/helmets/pronamic-alpine-white/1.mp4"
   },
   {
     articleNo: "9770031",
@@ -54,7 +55,12 @@ Comfort features
 
 Protection features
  • Meets standard EN 397 and additional requirements for very low temperatures (-30 °C) and molten metal (MM) splash and is approved in accordance with EN 50365 (1000 V AC)`,
-    image: "/product-images/helmets/pheos-e-s-wr/1.jpg"
+    images: ["/product-images/helmets/pheos-e-s-wr/1.jpg",
+    "/product-images/helmets/pheos-e-s-wr/2.jpg",
+    "/product-images/helmets/pheos-e-s-wr/3.jpg",
+    "/product-images/helmets/pheos-e-s-wr/4.jpg",
+
+    ]
   },
   {
     articleNo: "9916200",
@@ -80,7 +86,11 @@ Protection features
  • Certified for area of application 3 (liquids)
  • Marking: W 166 3 B CE, 2C - 1.2 W 1 B KN CE
  • Reliable UV400 protection`,
-    image: "/product-images/helmets/pronamic-half-visor/4.jpg"
+    images: ["/product-images/helmets/pronamic-half-visor/4.jpg",
+    "/product-images/helmets/pronamic-half-visor/2.jpg",
+    "/product-images/helmets/pronamic-half-visor/3.jpg",
+    "/product-images/helmets/pronamic-half-visor/1.jpg",
+    ]
   },
   {
     articleNo: "9906006",
@@ -94,7 +104,11 @@ General features
  • magnetic levers
  • complies with standard EN 166, EN 170 and classified according to GS-ET 29 short circuit electric arc class 1
  • also certified for areas of application 3 (liquids) and 9 (molten metal and hot solids)`,
-    image: "/product-images/helmets/pheos-magnetic-visor/1.jpg"
+    images: ["/product-images/helmets/pheos-magnetic-visor/1.jpg",
+    "/product-images/helmets/pheos-magnetic-visor/2.jpg",
+    "/product-images/helmets/pheos-magnetic-visor/3.jpg",
+    "/product-images/helmets/pheos-magnetic-visor/4.jpg",
+    ]
   },
   {
     articleNo: "9772730",
@@ -123,6 +137,8 @@ Sustainability
  • Carbon footprint of transportation: 0.11 kg CO₂ eq
  • Carbon footprint of packaging: 0.18 kg CO₂ eq
  • Legal notice regarding carbon footprint: Calculation method: IPCC 2021 GWP 100a (based on ISO 14067) SimaPro 9.5.0.0 ecoinvent database 3.9 and EU27. Scope: cradle-to-customer. These CO₂ values are valid at the time of calculation and may be subject to change. More information can be found at uvex-safety.com/carbon-footprint`,
-    image: "/product-images/helmets/pheos-b-wr/1.png"
+    images: ["/product-images/helmets/pheos-b-wr/1.png",
+
+    ]
   },
 ];

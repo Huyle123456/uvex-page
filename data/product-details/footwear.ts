@@ -30,7 +30,19 @@ Protection features
 
 Application area
 • light application`,
-    image: "/product-images/footwear/1-x-craft-planet-s1-pl-low/1.jpg"
+    images: [
+      "/product-images/footwear/1-x-craft-planet-s1-pl-low/1.jpg",
+      "/product-images/footwear/1-x-craft-planet-s1-pl-low/2.jpg",
+      "/product-images/footwear/1-x-craft-planet-s1-pl-low/3.jpg",
+      "/product-images/footwear/1-x-craft-planet-s1-pl-low/4.jpg",
+      "/product-images/footwear/1-x-craft-planet-s1-pl-low/5.jpg",
+      "/product-images/footwear/1-x-craft-planet-s1-pl-low/6.jpg",
+      "/product-images/footwear/1-x-craft-planet-s1-pl-low/7.jpg",
+      "/product-images/footwear/1-x-craft-planet-s1-pl-low/8.jpg",
+      "/product-images/footwear/1-x-craft-planet-s1-pl-low/9.jpg",
+      "/product-images/footwear/1-x-craft-planet-s1-pl-low/10.jpg",
+      "/product-images/footwear/1-x-craft-planet-s1-pl-low/11.jpg",
+    ]
   },
   {
     articleNo: "68448",
@@ -61,7 +73,8 @@ Sustainability
 • Carbon footprint of transportation: 0.419 kg CO₂ eq
 • Carbon footprint of packaging: 0.670 kg CO₂ eq
 • Legal notice regarding carbon footprint: Calculation method: IPCC 2021 GWP 100a (based on ISO 14067) SimaPro 9.4.0.2 ecoinvent database 3.8. Scope: cradle-to-customer. These CO2 values are valid at the time of calculation and may be subject to change. More information can be found at uvex-safety.com/carbon-footprint.`,
-    image: "/product-images/footwear/1-g2-s2-src/1.png"
+    images: ["/product-images/footwear/1-g2-s2-src/1.png"],
+    video: "/product-images/footwear/1-g2-s2-src/1.mp4"
   },
   {
     articleNo: "65292",
@@ -91,7 +104,11 @@ Protection features
 • 100% metal-free uvex xenova® protective toe cap and metal-free, penetration-resistant xenova® midsole — compact, anatomical shape, with good lateral stability and no thermal conductivity
 • ergonomically designed, lightweight MACSOLE® rubber sole with rough, self-cleaning tread and higher chemical resistance and cut resistance than PU soles
 • reflective elements on the upper`,
-    image: "/product-images/footwear/2-macsole-s3l/1.jpg"
+    images: [
+      "/product-images/footwear/2-macsole-s3l-boots/1.jpg",
+      "/product-images/footwear/2-macsole-s3l-boots/2.jpg",
+      "/product-images/footwear/2-macsole-s3l-boots/3.jpg",
+     ]
   },
   {
     articleNo: "95692",
@@ -120,7 +137,20 @@ Protection features
 
 Application areas
 • Medium-duty applications`,
-    image: "/product-images/footwear/2-xenova-lace-up-s3-src-with-boa-fit-system/1.jpg"
+    images: ["/product-images/footwear/2-xenova-lace-up-s3-src-with-boa-fit-system/1.jpg",
+      "/product-images/footwear/2-xenova-lace-up-s3-src-with-boa-fit-system/2.jpg",
+      "/product-images/footwear/2-xenova-lace-up-s3-src-with-boa-fit-system/3.jpg",
+      "/product-images/footwear/2-xenova-lace-up-s3-src-with-boa-fit-system/4.jpg",
+      "/product-images/footwear/2-xenova-lace-up-s3-src-with-boa-fit-system/5.jpg",
+      "/product-images/footwear/2-xenova-lace-up-s3-src-with-boa-fit-system/6.jpg",
+      "/product-images/footwear/2-xenova-lace-up-s3-src-with-boa-fit-system/7.jpg",
+      "/product-images/footwear/2-xenova-lace-up-s3-src-with-boa-fit-system/8.jpg",
+      "/product-images/footwear/2-xenova-lace-up-s3-src-with-boa-fit-system/9.jpg",
+      "/product-images/footwear/2-xenova-lace-up-s3-src-with-boa-fit-system/10.jpg",
+      "/product-images/footwear/2-xenova-lace-up-s3-src-with-boa-fit-system/11.jpg",
+      "/product-images/footwear/2-xenova-lace-up-s3-src-with-boa-fit-system/12.jpg",
+      "/product-images/footwear/2-xenova-lace-up-s3-src-with-boa-fit-system/13.jpg",
+    ]
   },
   {
     articleNo: "68722",
@@ -163,7 +193,16 @@ Sustainability
 • Carbon footprint of packaging: 0.70 kg CO₂ eq
 • CO₂ - time of calculation: 07/2023
 • Legal notice regarding carbon footprint: Calculation method: IPCC 2021 GWP 100a (based on ISO 14067) SimaPro 9.5.0.0 ecoinvent database 3.9 and EU27. Scope: cradle-to-customer. These CO₂ values are valid at the time of calculation and may be subject to change. More information can be found at uvex-safety.com/carbon-footprint.`,
-    image: "/product-images/footwear/3-lace-up-s3-src/1.jpg"
+    images: ["/product-images/footwear/3-lace-up-s3-src/1.jpg",
+      "/product-images/footwear/3-lace-up-s3-src/2.jpg",
+      "/product-images/footwear/3-lace-up-s3-src/3.jpg",
+      "/product-images/footwear/3-lace-up-s3-src/4.jpg",
+      "/product-images/footwear/3-lace-up-s3-src/5.jpg",
+      "/product-images/footwear/3-lace-up-s3-src/6.jpg",
+      "/product-images/footwear/3-lace-up-s3-src/7.jpg",
+      "/product-images/footwear/3-lace-up-s3-src/8.jpg",
+      "/product-images/footwear/3-lace-up-s3-src/9.jpg",
+    ]
   },
   {
     articleNo: "67353",
@@ -180,6 +219,7 @@ Sustainability
 • Weight: 745 g in size 8
 • Standard: EN ISO 20345:2011 S3 M CI HI HRO SRC
 • Sizes: 3.5–13`,
-    image: "/product-images/footwear/maccrossroad-meta/1.png"
+    images: ["/product-images/footwear/maccrossroad-meta/1.png"],
+    video: "/product-images/footwear/maccrossroad-meta/1.mp4"
   },
 ];

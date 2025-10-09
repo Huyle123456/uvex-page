@@ -23,7 +23,10 @@ Protection features
 • Optional extra frame provides additional protection against particles, dirt and dust
 • Certified in accordance with EN 166 (personal eye protection) and EN 170 (UV filters)
 • UV400 — 100% protection against harmful UV radiation up to 400 nm`,
-    image: "/product-images/glasses/suxxeed/1.jpg"
+    images: ["/product-images/glasses/suxxeed/1.jpg",
+      "/product-images/glasses/suxxeed/2.jpg",
+      "/product-images/glasses/suxxeed/3.jpg"
+    ]
   },
   {
     articleNo: "9183265",
@@ -54,7 +57,8 @@ Sustainability
 • Carbon footprint of packaging: 0.03 kg CO₂ eq
 • CO₂ - time of calculation: 11/2023
 • Legal notice regarding carbon footprint: Calculation method: IPCC 2021 GWP 100a (based on ISO 14067) SimaPro 9.5.0.0 ecoinvent database 3.9 and EU27. Scope: cradle-to-customer. These CO₂ values are valid at the time of calculation and may be subject to change. More information can be found at uvex-safety.com/carbon-footprint`,
-    image: "/product-images/glasses/i-5/1.png"
+    images: ["/product-images/glasses/i-5/1.png"],
+    video: "/product-images/glasses/i-5/1.mp4"
   },
   {
     articleNo: "9193064",
@@ -79,7 +83,8 @@ Protection features
 • Reliable UV400 protection
 • Optimum vision thanks to uvex lens geometry
 • The CBR65 blocks out blue light from the sun and man-made sources by 50% up to 450nm`,
-    image: "/product-images/glasses/sportstyle/1.png"
+    images: ["/product-images/glasses/sportstyle/1.png"],
+    video: "/product-images/glasses/sportstyle/1.mp4"
   },
   {
     articleNo: "9198175",
@@ -103,7 +108,17 @@ Protection features
 • Certified in line with EN 166 (personal eye protection), EN 169 (filters for welding), EN 170 (UV filters) and EN 171 (infrared filters)
 • Certification: W 166 FT CE – 4C-5 W1 FTKN CE, 2C-5 W1 FTKN CE
 • UV400 – 100% protection against harmful UV radiation to 400 nm`,
-    image: "/product-images/glasses/pheos-cx2/1.jpg"
+    images: ["/product-images/glasses/pheos-cx2/1.jpg",
+      "/product-images/glasses/pheos-cx2/2.jpg",
+      "/product-images/glasses/pheos-cx2/3.jpg",
+      "/product-images/glasses/pheos-cx2/4.jpg",
+      "/product-images/glasses/pheos-cx2/5.jpg",
+      "/product-images/glasses/pheos-cx2/6.jpg",
+      "/product-images/glasses/pheos-cx2/7.jpg",
+      "/product-images/glasses/pheos-cx2/8.jpg",
+      "/product-images/glasses/pheos-cx2/9.jpg",
+      "/product-images/glasses/pheos-cx2/10.jpg",
+      ]
   },
   {
     articleNo: "9169295",
@@ -136,7 +151,7 @@ Sustainability
 • Carbon footprint of packaging: 0.03 kg CO₂ eq
 • CO₂ - time of calculation: 01/2023
 • Legal notice regarding carbon footprint: Calculation method: IPCC 2021 GWP 100a (based on ISO 14067) SimaPro 9.4.0.2 ecoinvent database 3.8. Scope: cradle-to-customer. These CO2 values are valid at the time of calculation and may be subject to change. More information can be found at uvex-safety.com/carbon-footprint.`,
-    image: "/product-images/glasses/super-otg-planet/1.png"
+    images: ["/product-images/glasses/super-otg-planet/1.png"]
   },
   {
     articleNo: "9321904",
@@ -158,7 +173,11 @@ Comfort features
 • Indirect ventilation system prevents fogging
 • Headband inclines to ensure an optimal and secure fit
 • Highly compatible with other PPE`,
-    image: "/product-images/glasses/hypervision-cb/1.jpg"
+    images: [
+      "/product-images/glasses/hypervision-cb/1.jpg",
+      "/product-images/glasses/hypervision-cb/2.jpg",
+      "/product-images/glasses/hypervision-cb/3.jpg",
+    ]
   },
   {
     articleNo: "9302290",
@@ -195,7 +214,7 @@ Sustainability
 • Carbon footprint of packaging: 0.03 kg CO₂ eq
 • CO₂ - time of calculation: 01/2023
 • Legal notice regarding carbon footprint: Calculation method: IPCC 2021 GWP 100a (based on ISO 14067) SimaPro 9.4.0.2 ecoinvent database 3.8. Scope: cradle-to-customer. These CO2 values are valid at the time of calculation and may be subject to change. More information can be found at uvex-safety.com/carbon-footprint.`,
-    image: "/product-images/glasses/ultrasonic-planet/1.png"
+    images: ["/product-images/glasses/ultrasonic-planet/1.png"]
   },
   {
     articleNo: "9320466",
@@ -217,7 +236,15 @@ Comfort features
 • Flexible frame for maximum wearer comfort
 • Extra-wide headband for a superior fit
 • Highly compatible with other PPE`,
-    image: "/product-images/glasses/megasonic-cb/1.jpg"
+    images: [
+      "/product-images/glasses/megasonic-cb/1.jpg",
+      `/product-images/glasses/megasonic-cb/2.jpg`,
+      `/product-images/glasses/megasonic-cb/3.jpg`,
+      `/product-images/glasses/megasonic-cb/4.jpg`,
+      `/product-images/glasses/megasonic-cb/5.jpg`,
+      `/product-images/glasses/megasonic-cb/6.jpg`,
+      `/product-images/glasses/megasonic-cb/7.jpg`,
+    ]
   },
   {
     articleNo: "9302500",
@@ -241,7 +268,12 @@ Protection features
 • Labelling: W 166 34 B CE – 2-1.2 W 1 B KN DIN CE
 • Reliable UV 400 protection
 • High mechanical strength (B: 120 m/s)`,
-    image: "/product-images/glasses/ultrasonic-cr/1.jpg"
+    images: ["/product-images/glasses/ultrasonic-cr/1.jpg",
+      "/product-images/glasses/ultrasonic-cr/2.jpg",
+      "/product-images/glasses/ultrasonic-cr/3.jpg",
+      "/product-images/glasses/ultrasonic-cr/4.jpg",
+
+    ]
   },
   {
     articleNo: "9302045",
@@ -272,7 +304,9 @@ Protection features
 • Labelling of filter: 5 W 1 CE
 • Reliable UV 400 and IR protection (flip-up lens)
 High mechanical strength (B: 120 m/s)`,
-    image: "/product-images/glasses/ultrasonic-flip-up-welding/1.jpg"
+    images: ["/product-images/glasses/ultrasonic-flip-up-welding/1.jpg",
+      "/product-images/glasses/ultrasonic-flip-up-welding/2.jpg",
+    ]
   },
   {
     articleNo: "9301633",
@@ -303,7 +337,7 @@ Sustainability
 • Carbon footprint of materials: 0.42 kg CO₂ eq
 • Carbon footprint of transportation: 0.02 kg CO₂ eq
 • Carbon footprint of packaging: 0.03 kg CO₂ eq`,
-    image: "/product-images/glasses/ultravision/1.jpg"
+    images: ["/product-images/glasses/ultravision/1.jpg"]
   },
   {
     articleNo: "9190275",
@@ -334,7 +368,10 @@ Sustainability
 • Carbon footprint of materials: 0.19 kg CO₂ eq
 • Carbon footprint of transportation: 0.03 kg CO₂ eq
 • Carbon footprint of packaging: 0.03 kg CO₂ eq`,
-    image: "/product-images/glasses/i-3/1.jpg"
+    images: ["/product-images/glasses/i-3/1.jpg",
+      "/product-images/glasses/i-3/2.jpg",
+      "/product-images/glasses/i-3/3.jpg",
+    ]
   },
   {
     articleNo: "9122885",
@@ -353,6 +390,9 @@ Comfort features
 Protection features
 • Certified in accordance with EN ISO 16321-1 (eye and face protection for industrial use, sunglare filter)
 • Robust polycarbonate lens with UV400 — 100% protection against harmful UV radiation to 400 nm`,
-    image: "/product-images/glasses/suxxeed/1.jpg"
+    images: ["/product-images/glasses/suxxeed/1.jpg",
+      "/product-images/glasses/suxxeed/2.jpg",
+      "/product-images/glasses/suxxeed/3.jpg"
+    ]
   },
 ];

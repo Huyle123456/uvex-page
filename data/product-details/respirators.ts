@@ -19,7 +19,12 @@ Protection features
 • Certified FFP2 face mask to EN 149:2001+A1:2009
 • D label (dolomite dust test passed): maximum breathability even with really high dust levels
 • Cannot be reused`,
-    image: "/product-images/respirators/silv-air-c-2200-ffp2/1.jpg"
+    images: ["/product-images/respirators/silv-air-c-2200-ffp2/1.jpg",
+      "/product-images/respirators/silv-air-c-2200-ffp2/2.jpg",
+      "/product-images/respirators/silv-air-c-2200-ffp2/3.jpg",
+      "/product-images/respirators/silv-air-c-2200-ffp2/4.jpg",
+      "/product-images/respirators/silv-air-c-2200-ffp2/5.jpg"
+    ]
   },
   {
     articleNo: "8762220",
@@ -41,7 +46,10 @@ Protection features
 • D label (dolomite dust test passed): maximum breathability even with really high dust levels
 • Cannot be reused
 • Additional activated carbon filter against odours, gases and vapours below threshold`,
-    image: "/product-images/respirators/silv-air-c-2220-ffp2/3.jpg"
+    images: ["/product-images/respirators/silv-air-c-2220-ffp2/3.jpg",
+      "/product-images/respirators/silv-air-c-2220-ffp2/1.jpg",
+      "/product-images/respirators/silv-air-c-2220-ffp2/2.jpg",
+    ]
   },
   {
     articleNo: "8762313",
@@ -73,7 +81,21 @@ Sustainability
 • Carbon footprint of packaging: 0.02 kg CO₂ eq
 • CO₂ - time of calculation: 05/2023
 • Legal notice regarding carbon footprint: Calculation method: IPCC 2021 GWP 100a (based on ISO 14067) SimaPro 9.5.0.0 ecoinvent database 3.9. Scope: cradle-to-customer. These CO₂ values are valid at the time of calculation and may be subject to change. More information can be found at uvex-safety.com/carbon-footprint.`,
-    image: "/product-images/respirators/silv-air-2310-planet/1.jpg"
+    images: ["/product-images/respirators/silv-air-2310-planet/1.jpg",
+      "/product-images/respirators/silv-air-2310-planet/2.jpg",
+      "/product-images/respirators/silv-air-2310-planet/3.jpg",
+      "/product-images/respirators/silv-air-2310-planet/4.jpg",
+      "/product-images/respirators/silv-air-2310-planet/5.jpg",
+      "/product-images/respirators/silv-air-2310-planet/6.jpg",
+      "/product-images/respirators/silv-air-2310-planet/7.jpg",
+      "/product-images/respirators/silv-air-2310-planet/8.jpg",
+      "/product-images/respirators/silv-air-2310-planet/9.jpg",
+      "/product-images/respirators/silv-air-2310-planet/10.jpg",
+      "/product-images/respirators/silv-air-2310-planet/11.jpg",
+      "/product-images/respirators/silv-air-2310-planet/12.jpg",
+      "/product-images/respirators/silv-air-2310-planet/13.jpg",
+
+    ]
   },
   {
     articleNo: "8763200",
@@ -93,7 +115,9 @@ Protection features
 • Certified FFP2 face mask to EN 149:2001+A1:2009
 • D label (dolomite dust test passed): maximum breathability even with really high dust levels
 • Cannot be reused`,
-    image: "/product-images/respirators/silv-air-c-3200-ffp2-fold/1.jpg"
+    images: ["/product-images/respirators/silv-air-c-3200-ffp2-fold/1.jpg",
+      "/product-images/respirators/silv-air-c-3200-ffp2-fold/2.jpg",
+    ]
   },
   {
     articleNo: "8763220",
@@ -114,7 +138,9 @@ Protection features
 • "D" symbol (mask has passed the dolomite dust test): breathe easy even at high levels of dust exposure
 • Not reusable
 • Additional activated carbon filter against odours, gases and vapours below threshold values`,
-    image: "/product-images/respirators/silv-air-c-3220/1.jpg"
+    images: ["/product-images/respirators/silv-air-c-3220/1.jpg",
+      "/product-images/respirators/silv-air-c-3220/2.jpg",
+    ]
   },
   {
     articleNo: "8763310",
@@ -135,6 +161,10 @@ Protection features
 • Certified FFP3 face mask to EN 149:2001+A1:2009
 • D label (dolomite dust test passed): maximum breathability even with really high dust levels
 • Cannot be reused`,
-    image: "/product-images/respirators/silv-air-c-3310-ffp3/4.jpg"
+    images: ["/product-images/respirators/silv-air-c-3310-ffp3/4.jpg",
+      "/product-images/respirators/silv-air-c-3310-ffp3/1.jpg",
+      "/product-images/respirators/silv-air-c-3310-ffp3/2.jpg",
+      "/product-images/respirators/silv-air-c-3310-ffp3/3.jpg",
+    ]
   },
 ];

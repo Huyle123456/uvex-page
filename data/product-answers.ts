@@ -20,7 +20,8 @@ export const products: Product[] = [
     q2Answers: ["d"],
     q3Answers: ["a", "b", "c", "d"],
     q4Answer: "no",
-    image: "/product-images/helmets/pronamic-alpine-white/1.png"
+    image: "/product-images/helmets/pronamic-alpine-white/1.png",
+    video: "/product-images/helmets/pronamic-alpine-white/1.mp4"
   },
   {
     articleNo: "9770031",
@@ -266,7 +267,7 @@ export const products: Product[] = [
     productName: "uvex profi pure Hydro-Grip",
     q1Answer: "gloves",
     q2Answers: ["a", "f"],
-    image: "/product-images/gloves/profi-pure-hydro-grip/1.png"
+    image: "/product-images/gloves/profi-pure-hydro-grip/1.jpg"
   },
   {
     articleNo: "60094",

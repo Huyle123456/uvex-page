@@ -6,7 +6,8 @@ export const hearingDetails: ProductDetail[] = [
     productName: "uvex xact-fit testing system",
     description: `Testing system for perfectly fitting hearing protectors
 uvex xact-fit delivers an efficient and highly user-friendly fit-testing system that helps you understand exactly how much protection you're receiving from your hearing protectors, regardless of brand or model. This innovative and extremely lightweight kit includes Bluetooth headphones and a tablet for a cordless and quick set-up, as well as a carrying case, allowing the set to be used anywhere. The pre-installed software and cloud storage offer an increased level of security. You can automatically upload results onto the tablet and share these with other devices. Fit-testing workers for proper hearing protection has never been so easy. This is how the uvex xact-fit testing system works: using the Real Ear Attenuation at Threshold (REAT), users undergo a series of tests where they must determine their Hearing Threshold score, both with and without hearing protection. This is the lowest volume at which a sound can be detected, and it is different for every person. This measuring process is used to determine the personal protection factor (Personal Attenuation Rating, PAR), which tells you how much protection you're receiving from your hearing protectors as a result of the fit.`,
-    image: "/product-images/hearing/xact-fit-test/1.png"
+    images: ["/product-images/hearing/xact-fit-test/1.png"],
+    video:"/product-images/hearing/xact-fit-test/1.mp4"
   },
   {
     articleNo: "2630220",
@@ -34,7 +35,8 @@ Protection features
 Application areas
 • Industry
 • Construction sector`,
-    image: "/product-images/hearing/k20h/1.png"
+    images: ["/product-images/hearing/k20h/1.png"],
+    video:"/product-images/hearing/k20h/1.mp4"
   },
   {
     articleNo: "2640001",
@@ -71,7 +73,8 @@ Application areas
 • Industry
 • Construction sector
 • End-user`,
-    image: "/product-images/hearing/axess-one/1.png"
+    images: ["/product-images/hearing/axess-one/1.png"],
+    video:"/product-images/hearing/axess-one/1.mp4"
   },
   {
     articleNo: "2111238",
@@ -100,7 +103,7 @@ Sustainability
 • Carbon footprint of packaging: 0.008 kg CO₂ eq
 • CO₂ - time of calculation: 08/2024
 • Legal notice regarding carbon footprint: Calculation method: IPCC 2021 GWP 100a (based on ISO 14067) SimaPro 9.5.0.0 ecoinvent database 3.9. Scope: cradle-to-customer. These CO₂ values are valid at the time of calculation and may be subject to change. More information can be found at uvex-safety.com/carbon-footprint.`,
-    image: "/product-images/hearing/whisper-reusable/1.jpg"
+    images: ["/product-images/hearing/whisper-reusable/1.jpg"]
   },
   {
     articleNo: "2112001",
@@ -129,7 +132,7 @@ Sustainability
 • Carbon footprint of packaging: 0.001 kg CO₂ eq
 • CO₂ - time of calculation: 06/2024
 • Legal notice regarding carbon footprint: Calculation method: IPCC 2021 GWP 100a (based on ISO 14067) SimaPro 9.5.0.0 ecoinvent database 3.9. Scope: cradle-to-customer. These CO₂ values are valid at the time of calculation and may be subject to change. More information can be found at uvex-safety.com/carbon-footprint.`,
-    image: "/product-images/hearing/x-fit-disposable/1.jpg"
+    images: ["/product-images/hearing/x-fit-disposable/1.jpg"]
   },
   {
     articleNo: "2111988",
@@ -165,6 +168,6 @@ Sustainability
 • Carbon footprint of packaging: 0.3 kg CO₂ eq
 • CO₂ - time of calculation: 03/2025
 • Legal notice regarding carbon footprint: Calculation method: IPCC 2021 GWP 100a (based on ISO 14067) SimaPro 9.6.0.1 ecoinvent database 3.10 and EU27. Scope: cradle-to-customer. These CO₂ values are valid at the time of calculation and may be subject to change. More information can be found at uvex-safety.com/carbon-footprint.`,
-    image: "/product-images/hearing/dispenser-one2click-magnetic/1.jpg"
+    images: ["/product-images/hearing/dispenser-one2click-magnetic/1.jpg"]
   },
 ];

@@ -25,7 +25,7 @@ Protection features
 • Self-adhesive zipper flap for optimal protection
 • Anti-static properties
 • Protection against infectious diseases`,
-    image: "/product-images/clothing/5-6-classic-light/1.jpg"
+    images: ["/product-images/clothing/5-6-classic-light/1.jpg","/product-images/clothing/5-6-classic-light/2.jpg"],
   },
   {
     articleNo: "89880",
@@ -72,7 +72,16 @@ Application areas
 • Disaster response and emergency services
 • Veterinary medicine and disease control
 • Oil and petrochemicals`,
-    image: "/product-images/clothing/3b-classic/1.jpg"
+    images: [
+      "/product-images/clothing/3b-classic/1.jpg",
+      "/product-images/clothing/3b-classic/2.jpg",
+      "/product-images/clothing/3b-classic/3.jpg",
+      "/product-images/clothing/3b-classic/4.jpg",
+      "/product-images/clothing/3b-classic/5.jpg",
+      "/product-images/clothing/3b-classic/6.jpg",
+      "/product-images/clothing/3b-classic/7.jpg",
+    ],
+
   },
   {
     articleNo: "98375",
@@ -112,6 +121,12 @@ Application areas
 • work with asbestos and dismantling
 • remediation of contaminated sites
 • pharmaceutical industry and laboratory work`,
-    image: "/product-images/clothing/4b-disposable-coverall/1.jpg"
+    images: [
+      "/product-images/clothing/4b-disposable-coverall/1.jpg",
+      "/product-images/clothing/4b-disposable-coverall/2.jpg",
+      "/product-images/clothing/4b-disposable-coverall/3.jpg",
+      "/product-images/clothing/4b-disposable-coverall/4.jpg",
+
+    ]
   }
 ];

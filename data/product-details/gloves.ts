@@ -44,7 +44,9 @@ Sustainability
 • Carbon footprint of packaging: 0.01 kg CO₂ eq
 • CO₂ - time of calculation: 04/2024
 • Legal notice regarding carbon footprint: Calculation method: IPCC 2021 GWP 100a (based on ISO 14067) SimaPro 9.5.0.0 ecoinvent database 3.9. Scope: cradle-to-customer. These CO₂ values are valid at the time of calculation and may be subject to change. More information can be found at uvex-safety.com/carbon-footprint.`,
-    image: "/product-images/gloves/phynomic-xg/1.png"
+    images: ["/product-images/gloves/phynomic-xg/1.png",
+      "/product-images/gloves/phynomic-xg/2.png",
+      "/product-images/gloves/phynomic-xg/3.png"],
   },
   {
     articleNo: "60090",
@@ -90,7 +92,8 @@ Sustainability
 • Carbon footprint of packaging: 0.01 kg CO₂ eq
 • CO₂ - time of calculation: 04/2024
 • Legal notice regarding carbon footprint: Calculation method: IPCC 2021 GWP 100a (based on ISO 14067) SimaPro 9.5.0.0 ecoinvent database 3.9. Scope: cradle-to-customer. These CO₂ values are valid at the time of calculation and may be subject to change. More information can be found at uvex-safety.com/carbon-footprint.`,
-    image: "/product-images/gloves/bamboo-twinflex-d/1.png"
+    images: ["/product-images/gloves/bamboo-twinflex-d/1.png"],
+    video:"/product-images/gloves/bamboo-twinflex-d/1.mp4"
   },
   {
     articleNo: "60023",
@@ -125,7 +128,8 @@ Application areas
 • Sorting
 • Scaffolding
 • Concrete and construction work`,
-    image: "/product-images/gloves/profi-pure-hydro-grip/1.png"
+    images: ["/product-images/gloves/profi-pure-hydro-grip/1.jpg"],
+    video:"/product-images/gloves/profi-pure-hydro-grip/1.mp4"
   },
   {
     articleNo: "60094",
@@ -166,7 +170,9 @@ Areas of application
 • Packaging work
 • Working on industrial screens, tablets and mobile phones
 • Maintenance and repair work`,
-    image: "/product-images/gloves/phynomic-f-xg-protexxion-zone/1.jpg"
+    images: [
+      "/product-images/gloves/phynomic-f-xg-protexxion-zone/1.jpg", "/product-images/gloves/phynomic-f-xg-protexxion-zone/2.jpg"
+    ],
   },
   {
     articleNo: "60048",
@@ -207,7 +213,11 @@ Application areas
 • Packaging
 • Working on industrial screens, tablets and mobile phones
 • Maintenance and service work`,
-    image: "/product-images/gloves/phynomic-c-xg-esd/1.jpg"
+    images: ["/product-images/gloves/phynomic-c-xg-esd/1.jpg",
+      "/product-images/gloves/phynomic-c-xg-esd/2.jpg",
+      "/product-images/gloves/phynomic-c-xg-esd/3.jpg",
+      "/product-images/gloves/phynomic-c-xg-esd/4.jpg"
+    ]
   },
   {
     articleNo: "60663",
@@ -242,7 +252,7 @@ Application areas
 • Mining
 • Oil and gas industry
 • Heavy construction`,
-    image: "/product-images/gloves/helix-3001/1.jpg"
+    images: ["/product-images/gloves/helix-3001/1.jpg"]
   },
   {
     articleNo: "60666",
@@ -268,7 +278,16 @@ Protection features
 • Black 13-gauge HPPE and steel blend shell
 • Liquid proof and flexible sandy nitrile palm coating provides superior grip and abrasion resistance
 • Reinforced thumb crotch area`,
-    image: "/product-images/gloves/helix-3007/1.jpg"
+    images: ["/product-images/gloves/helix-3007/1.jpg",
+      "/product-images/gloves/helix-3007/2.jpg",
+      "/product-images/gloves/helix-3007/3.jpg",
+      "/product-images/gloves/helix-3007/4.jpg",
+      "/product-images/gloves/helix-3007/5.jpg",
+      "/product-images/gloves/helix-3007/6.jpg",
+      "/product-images/gloves/helix-3007/7.jpg",
+      "/product-images/gloves/helix-3007/8.jpg",
+      "/product-images/gloves/helix-3007/9.jpg",
+    ]
   },
   {
     articleNo: "60180",
@@ -295,7 +314,9 @@ Protection features
 • Certified to EN 388:2016 (2 1 2 1 X) and EN ISO 374-1:2016/Type B (J K O P T)
 • Good mechanical abrasion resistance thanks to the NBR coating
 • Good resistance to many chemicals, acids, alkalis, mineral oils and solvents`,
-    image: "/product-images/gloves/rubiflex-s-nb60sz/1.jpg"
+    images: ["/product-images/gloves/rubiflex-s-nb60sz/1.jpg",
+      "/product-images/gloves/rubiflex-s-nb60sz/2.jpg",
+    ]
   },
   {
     articleNo: "60557",
@@ -333,7 +354,12 @@ Sustainability
 • Carbon footprint of packaging: 0.01 kg CO₂ eq
 • CO₂ - time of calculation: 07/2024
 • Legal notice regarding carbon footprint: Calculation method: IPCC 2021 GWP 100a (based on ISO 14067) SimaPro 9.5.0.0 ecoinvent database 3.9. Scope: cradle-to-customer. These CO₂ values are valid at the time of calculation and may be subject to change. More information can be found at uvex-safety.com/carbon-footprint`,
-    image: "/product-images/gloves/rubiflex-s-xg35b/1.png"
+    images: ["/product-images/gloves/rubiflex-s-xg35b/1.png",
+      "/product-images/gloves/rubiflex-s-xg35b/2.png",
+      "/product-images/gloves/rubiflex-s-xg35b/3.png",
+      "/product-images/gloves/rubiflex-s-xg35b/4.png",
+      "/product-images/gloves/rubiflex-s-xg35b/5.png",
+    ]
   },
   {
     articleNo: "60840",
@@ -349,7 +375,13 @@ Comfort features
 • Flexible, with a good grip feel even at low temperatures
 • Flexible at cold temperatures
 • Mineral oil-resistant`,
-    image: "/product-images/gloves/power-protect-v1000-electrician/1.jpg"
+    images: ["/product-images/gloves/power-protect-v1000-electrician/1.jpg",
+      "/product-images/gloves/power-protect-v1000-electrician/2.jpg",
+      "/product-images/gloves/power-protect-v1000-electrician/3.jpg",
+      "/product-images/gloves/power-protect-v1000-electrician/4.jpg",
+      "/product-images/gloves/power-protect-v1000-electrician/5.jpg",
+      "/product-images/gloves/power-protect-v1000-electrician/6.jpg",
+    ]
   },
   {
     articleNo: "60838",
@@ -374,7 +406,12 @@ Comfort features
 Protection features
 • Short circuit electric arc class 1 tested according to EN 61482-1-2 (box test)
 • Thermal protection according to EN 407`,
-    image: "/product-images/gloves/arc-protect-g1-arc-flash-protection/1.jpg"
+    images: ["/product-images/gloves/arc-protect-g1-arc-flash-protection/1.jpg",
+      "/product-images/gloves/arc-protect-g1-arc-flash-protection/2.jpg",
+      "/product-images/gloves/arc-protect-g1-arc-flash-protection/3.jpg",
+      "/product-images/gloves/arc-protect-g1-arc-flash-protection/4.jpg",
+      "/product-images/gloves/arc-protect-g1-arc-flash-protection/5.jpg",
+    ]
   },
   {
     articleNo: "60026",
@@ -396,7 +433,11 @@ Protection features
 • Certified according to EN 388 (4 1 3 1 X)
 • Heat protection against contact heat up to 100°C, EN 407 (X1XXXX)
 • Excellent grip in dry and slightly damp areas`,
-    image: "/product-images/gloves/athletic-lite-xt/1.jpg"
+    images: ["/product-images/gloves/athletic-lite-xt/1.jpg",
+      "/product-images/gloves/athletic-lite-xt/2.jpg",
+      "/product-images/gloves/athletic-lite-xt/3.jpg",
+      "/product-images/gloves/athletic-lite-xt/4.jpg",
+    ]
   },
   {
     articleNo: "60894",
@@ -427,7 +468,11 @@ Application areas
 • Glass processing and metalworking
 • Trade
 • Concrete and construction work`,
-    image: "/product-images/gloves/unidur-6679-foam-hv/1.jpg"
+    images: ["/product-images/gloves/unidur-6679-foam-hv/1.jpg",
+      "/product-images/gloves/unidur-6679-foam-hv/2.jpg",
+      "/product-images/gloves/unidur-6679-foam-hv/3.jpg",
+      "/product-images/gloves/unidur-6679-foam-hv/4.jpg",
+    ]
   },
   {
     articleNo: "60842",
@@ -456,6 +501,6 @@ Application areas
 • (Refrigerated) warehouses
 • Forklift operation
 • Scaffolding`,
-    image: "/product-images/gloves/unilite-thermo-fc/1.jpg"
+    images: ["/product-images/gloves/unilite-thermo-fc/1.jpg"]
   },
 ];

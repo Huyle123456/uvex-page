@@ -4,7 +4,10 @@ import { ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-
+import "swiper/css";
+import "swiper/css/navigation";
+import { Navigation } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 interface ProductDetailPageProps {
   params: {
     "article-no": string;
@@ -60,36 +63,49 @@ export default function DetailProductPage({ params }: ProductDetailPageProps) {
 
   return (
     <div className="min-h-screen  ">
-      <header className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-sm">
-        <div className="container mx-auto px-4 py-4">
-          <Link
-            href="/questionnaire"
-            className="inline-flex items-center gap-2 hover:text-gray-300 transition-colors"
-          >
-            <ArrowLeft className="w-5 h-5" />
-            <span className="font-medium">Back</span>
-          </Link>
-        </div>
-      </header>
+      <div className="container mx-auto px-4 py-4 mt-8">
+        <Link
+          href="/questionnaire"
+          className="inline-flex items-center gap-2 hover:text-black hover:bg-white transition-colors bg-[#191919] px-3 py-2 rounded-lg"
+        >
+          <ArrowLeft className="w-5 h-5" />
+          <span className="font-medium">Back</span>
+        </Link>
+      </div>
 
-      <main className="pt-20 pb-12">
+      <main className="pt-4 pb-12">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
             <div className="relative    ">
-              {product.image ? (
-                <Image
-                  src={product.image}
-                  alt={product.productName}
-                  height={600}
-                  width={400}
-                  className="object-contain w-full  rounded-2xl"
-                  priority
-                />
-              ) : (
-                <div className="flex items-center justify-center h-full text-gray-500">
-                  No image available
-                </div>
-              )}
+              <Swiper
+                navigation={true}
+                modules={[Navigation]}
+                className="mySwiper h-[520px]"
+              >
+                {product.images ? (
+                  product.images.map((image, index) => (
+                    <SwiperSlide
+                      key={index}
+                      className="rounded-2xl overflow-hidden   items-center justify-center bg-white"
+                      style={{ display: "flex !important" }}
+                    >
+                      <Image
+                        src={image}
+                        alt={product.productName}
+                        height={400}
+                        width={400}
+                        className="object-contain w-full  "
+                      />
+                    </SwiperSlide>
+                  ))
+                ) : (
+                  <SwiperSlide>
+                    <div className="flex items-center justify-center h-full text-gray-500">
+                      No image available
+                    </div>
+                  </SwiperSlide>
+                )}
+              </Swiper>
             </div>
 
             <div className="flex flex-col">

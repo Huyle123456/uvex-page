@@ -4,5 +4,6 @@ export interface ProductDetail {
   articleNo: string;
   productName: string;
   description: string;
-  image?: string;
+  images?: string[];
+  video?: string;
 }

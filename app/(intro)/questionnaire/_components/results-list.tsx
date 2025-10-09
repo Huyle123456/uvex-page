@@ -27,6 +27,7 @@ export const ResultsList = ({ products, onRestart }: ResultsListProps) => {
                   className="object-contain w-[84px] h-[84px] md:w-[120px] md:h-[120px]"
                   src={product.image ?? "/images/placeholder.png"}
                   alt={product.productName}
+                  loading="lazy"
                   width={120}
                   height={120}
                 ></Image>
@@ -66,7 +67,9 @@ export const ResultsList = ({ products, onRestart }: ResultsListProps) => {
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-4 border-t border-neutral-800">
-          <div className="text-[16px] text-left md:w-fit w-full ">Find other solutions?</div>
+          <div className="text-[16px] text-left md:w-fit w-full ">
+            Find other solutions?
+          </div>
           <Button onClick={onRestart} className=" w-full sm:w-auto">
             Restart the questionnaire
           </Button>

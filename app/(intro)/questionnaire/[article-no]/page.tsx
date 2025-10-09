@@ -92,6 +92,7 @@ export default function DetailProductPage({ params }: ProductDetailPageProps) {
                       <Image
                         src={image}
                         alt={product.productName}
+                        loading="lazy"
                         height={400}
                         width={400}
                         className="object-contain w-full  rounded-2xl"

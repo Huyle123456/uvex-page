@@ -157,6 +157,7 @@ export const QuestionList = () => {
                     <Image
                       src={option.icon}
                       alt={option.label}
+                      loading="lazy"
                       width={24}
                       height={24}
                     />
